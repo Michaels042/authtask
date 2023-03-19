@@ -77,6 +77,12 @@ const Topnav = () => {
       >
         Home
       </Navbar.Link>
+      <Navbar.Link href="/dashboard">
+        Dashboard
+      </Navbar.Link>
+      <Navbar.Link href="/createImage">
+        Image Creator
+      </Navbar.Link>
         <Navbar.Link onClick={userSignOut}href="/signin">
         Sign Out
       </Navbar.Link>
